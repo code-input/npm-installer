@@ -3,7 +3,7 @@
 npm installer for the **ci** CLI — a CODEOWNERS file management and analysis toolkit.
 
 ```bash
-npm install -g codeinput
+npm install -g @codeinput/codeinput
 ```
 
 This downloads the appropriate `ci` binary for your platform (Linux, macOS, Windows).

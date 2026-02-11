@@ -1,5 +1,5 @@
 {
-  "name": "codeinput",
+  "name": "@codeinput/codeinput",
   "version": "0.0.1",
   "description": "CLI tool for CodeInput - installs the ci binary",
   "main": "index.js",
@@ -20,6 +20,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/code-input/npm-installer.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=14.0.0"
