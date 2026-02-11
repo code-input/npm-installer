@@ -1,0 +1,27 @@
+{
+  "name": "codeinput",
+  "version": "0.0.1",
+  "description": "CLI tool for CodeInput - installs the ci binary",
+  "main": "index.js",
+  "bin": {
+    "ci": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["codeinput", "cli", "git", "merge"],
+  "author": "support@codeinput.com",
+  "license": "MIT",
+  "homepage": "https://codeinput.com",
+  "bugs": {
+    "email": "support@codeinput.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-input/npm-installer.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
